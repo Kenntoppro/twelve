@@ -1,0 +1,17 @@
+tir = float(input('Гц: '))
+if tir >= 260.63 and tir <= 262.63:
+   print('C4')
+elif tir >= 292.66 and tir <= 294.66:
+   print('D4')
+elif tir >= 328.63 and tir <= 330.63:
+   print('E4')
+elif tir >= 348.23 and tir <= 350.23:
+   print('F4')
+elif tir >= 391.00 and tir <= 393.00:
+   print('G4')
+elif tir >= 439.00 and tir <= 441.00:
+   print('A4')
+elif tir >= 492.88 and tir <= 494.88:
+   print('B4')
+else:
+   print('не существует')
